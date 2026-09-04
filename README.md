@@ -11,6 +11,14 @@ npm install
 npm run dev          # http://localhost:3000
 ```
 
+> **If you regenerate `package-lock.json`, run `npm ci` before committing it.**
+> npm on macOS can drop the Linux-only optional dependencies that `sharp` and
+> Tailwind's oxide binary pull in — `@emnapi/core` and `@emnapi/runtime` — from
+> the lockfile. Those code paths are never taken here, so the result installs
+> fine locally and then fails `npm ci` on the Linux runner with "Missing:
+> @emnapi/runtime from lock file". `rm -rf node_modules package-lock.json &&
+> npm install` regenerates it completely. This has bitten twice.
+
 ## Where things live
 
 | | |
