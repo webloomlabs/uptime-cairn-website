@@ -106,7 +106,10 @@ export const NOTIFICATION_CHANNELS: { label: string; badge?: string }[] = [
   { label: "Matrix" },
   { label: "Gotify" },
   { label: "ntfy" },
+  { label: "Pushover" },
   { label: "Microsoft Teams" },
+  { label: "Mattermost" },
+  { label: "Google Chat" },
   { label: "PagerDuty" },
   { label: "Opsgenie" },
   { label: "Twilio / SMS" },
@@ -136,7 +139,7 @@ export const CAPABILITIES: { number: string; title: string; description: string 
     number: "02",
     title: "Tells you when they break",
     description:
-      "Email, Slack, Discord, Telegram, ntfy, Gotify, Matrix, Teams, PagerDuty, Opsgenie, SMS, webhooks — plus Apprise, which adds roughly ninety more destinations.",
+      "Email, Slack, Discord, Telegram, ntfy, Gotify, Matrix, Pushover, Teams, Mattermost, Google Chat, PagerDuty, Opsgenie, SMS, webhooks — plus Apprise, which adds roughly ninety more destinations.",
   },
   {
     number: "03",
@@ -158,9 +161,9 @@ export const CAPABILITIES: { number: string; title: string; description: string 
   },
   {
     number: "06",
-    title: "Stays fast when there's a lot of it",
+    title: "Reports to your clients",
     description:
-      "Tested against 5,000 monitors on a single install, on every change, automatically. The gate has already caught one regression before it shipped.",
+      "Scheduled PDF, HTML, CSV and JSON reports on your own branding, delivered by email, Slack, webhook or an S3 drop — with SLA figures, error budgets and an expiry calendar.",
   },
 ];
 

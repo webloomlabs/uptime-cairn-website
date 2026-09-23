@@ -28,12 +28,12 @@ const ELSEWHERE = [
   {
     label: "Roadmap",
     href: githubBlob("ROADMAP.md"),
-    description: "Reporting, teams, and scale — what is next and in what order.",
+    description: "Teams, multi-tenancy, and scale — what is next and in what order.",
   },
   {
     label: "Architecture decisions",
     href: githubBlob("docs/adr/"),
-    description: "Five ADRs: the probe split, storage, tenancy, UI state, probes.",
+    description: "Ten ADRs: the probe split, storage, tenancy, UI state, and how reports are rendered and stored.",
   },
   {
     label: "Security policy",

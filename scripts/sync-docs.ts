@@ -37,6 +37,9 @@ const MARKDOWN: { from: string; to: string }[] = [
   { from: "docs/guides/quickstart.md", to: "content/docs/guides/quickstart.md" },
   { from: "docs/guides/monitor-types.md", to: "content/docs/guides/monitor-types.md" },
   { from: "docs/guides/alerting.md", to: "content/docs/guides/alerting.md" },
+  { from: "docs/guides/reporting.md", to: "content/docs/guides/reporting.md" },
+  { from: "docs/guides/brand-profiles.md", to: "content/docs/guides/brand-profiles.md" },
+  { from: "docs/guides/sla-methodology.md", to: "content/docs/guides/sla-methodology.md" },
   {
     from: "docs/guides/migrating-from-uptime-kuma.md",
     to: "content/docs/guides/migrating-from-uptime-kuma.md",

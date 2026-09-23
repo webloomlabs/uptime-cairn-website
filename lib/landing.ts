@@ -104,7 +104,7 @@ export const LANDING = {
     label: "What it does",
     headline: "Six things,\ndone properly.",
     intro:
-      "Monitoring, alerting, incidents, and status pages in the stable release, with scheduled reporting now in beta. Team controls are next, and none of it will be a paid add-on.",
+      "Monitoring, alerting, incidents, status pages and scheduled reporting, all in the stable release. Team controls and multi-region probing are next, and none of it will be a paid add-on.",
   },
 
   monitors: {
@@ -125,7 +125,7 @@ export const LANDING = {
 
   alerting: {
     label: "Alerting",
-    headline: "Thirteen channels,\nplus about ninety more.",
+    headline: "Sixteen channels,\nplus about ninety more.",
     intro:
       "Test-firing a channel is a real delivery, and it reports the provider's own words back verbatim — so a misconfigured token fails on the form rather than during an outage.",
     eventsTitle: "Events it emits",

@@ -25,7 +25,7 @@ export const API_PAGE = {
 
   counts: [
     { value: "140", label: "operations" },
-    { value: "142", label: "schemas" },
+    { value: "145", label: "schemas" },
     { value: "3.1", label: "OpenAPI version" },
   ],
 

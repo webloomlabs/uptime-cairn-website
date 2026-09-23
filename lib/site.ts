@@ -21,8 +21,8 @@ export const SITE = {
      `repoRef` is the commit the docs were copied from, and is what GitHub
      fallback links are built against — a tag would 404 on any file added after
      it was cut. */
-  version: "1.0.1",
-  repoRef: "038545a61305e7410e342cdcf62535513eede000",
+  version: "1.1.0",
+  repoRef: "b5f5d14983bdbe72b15b60089a3938086a217c75",
 
   github: GITHUB,
   issues: `${GITHUB}/issues`,

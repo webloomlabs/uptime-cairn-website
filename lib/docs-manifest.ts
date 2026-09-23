@@ -72,6 +72,37 @@ export const DOC_GROUPS: DocGroup[] = [
     ],
   },
   {
+    id: "reporting",
+    title: "Reporting",
+    entries: [
+      {
+        slug: "reporting",
+        source: "guides/reporting.md",
+        sourceRepoPath: "docs/guides/reporting.md",
+        title: "Reporting",
+        description:
+          "Scheduled, branded reports over your monitoring history — what a template is, how a schedule fires, where the files live, and what arrives in a client's inbox.",
+      },
+      {
+        slug: "brand-profiles",
+        source: "guides/brand-profiles.md",
+        sourceRepoPath: "docs/guides/brand-profiles.md",
+        title: "Brand profiles",
+        description:
+          "White-labelling for reports: a logo, two colours, a client name, and the two lines of text that appear on the cover and in the footer.",
+      },
+      {
+        slug: "sla-methodology",
+        source: "guides/sla-methodology.md",
+        sourceRepoPath: "docs/guides/sla-methodology.md",
+        title: "SLA methodology",
+        navTitle: "SLA methodology",
+        description:
+          "The page to read when a figure is disputed: exactly what counts as downtime, what leaves the denominator, and which of those choices a report prints on its own face.",
+      },
+    ],
+  },
+  {
     id: "reference",
     title: "Reference",
     entries: [
@@ -89,18 +120,18 @@ export const DOC_GROUPS: DocGroup[] = [
         sourceRepoPath: "docs/guides/alerting.md",
         title: "Alerting",
         description:
-          "Thirteen channel types, what each one needs, webhook templating, and the two rules that apply to every channel before you configure any of them.",
+          "Sixteen channel types, what each one needs, webhook templating, and the two rules that apply to every channel before you configure any of them.",
       },
       {
         slug: "api",
         // Hand-written from lib/api-conventions.ts rather than rendered from
-        // markdown: the generated per-operation reference is 125 operations
+        // markdown: the generated per-operation reference is 140 operations
         // long and belongs next to the spec, not on a marketing site.
         sourceRepoPath: "docs/api/README.md",
         title: "API conventions",
         navTitle: "API",
         description:
-          "Authentication, scopes, cursor pagination, error documents, and the compatibility promise — plus where to get the OpenAPI spec and the full 125-operation reference.",
+          "Authentication, scopes, cursor pagination, error documents, and the compatibility promise — plus where to get the OpenAPI spec and the full 140-operation reference.",
       },
     ],
   },
